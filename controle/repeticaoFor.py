@@ -40,3 +40,25 @@ print()
 for ch in produto.keys():
     print(ch,end=',')
 print()
+
+pessoa = ['gui', 'andre', 'joao']
+adj = ['sapeca' , 'inteligente','chato']
+
+for pes in pessoa:
+    for ad in adj:
+        print(f'{pes} é {ad}')
+
+for i in range(1,11):
+    pass
+
+for i in range(1,11):
+    if i %2:
+        continue
+    print(i,end=' ')
+print()
+
+for i in range(1,11):
+    if i == 5:
+        break
+    print(i,end=' ')
+print()
